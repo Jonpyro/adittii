@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+
+}
+
+
+.inner{
+    margin: 0 auto;
+    width: 960px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: color 1.5s ease;
+}
+a:hover{
+    color:#CF4B59;
+}
+h4{
+    text-transform: capitalize;
+}
+/* header */
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-top{
+    margin-left: 45px;
+    width:95%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 45px;
+    font-family: "pattaya";
+    color: #3dc4b6;
+}
+.searchbar-div{
+    height:25px;
+    padding:0;
+    display: flex;
+    justify-content: center;
+}
+.searchbar{
+    margin-left: 50px;
+    width: 400px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.cart{
+    margin: 35px;
+    width: 90px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.total{
+    font-size: large;
+    color: darkgray;
+}
+.header-main{
+    background-color: #4bcfc1;
+}
+.top-nav{
+    padding:0;
+    margin-right: 15px;
+}
+.top-nav-list{
+
+    list-style: none;
+}
+.list-item{
+    padding: 0 15px;
+    border-right: 1px solid white;
+    display: inline;
+}
+.list-item:last-child{
+    border:none;
+}
+/* end header */
+/* main */
+
+.section1{
+    background-color:#3dc4b6;
+    height: 400px;
+    padding-top: 75px;
+}
+.block2{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    color: white;
+    font-family: 'Oswald';
+}
+.block2 h1{
+    text-transform: uppercase;
+}
+.block2-text{
+    width: 250px;
+    text-transform: capitalize;
+}
+.slider{
+    padding-top: 65px;
+    height: 15px;
+    display: flex;
+}
+.dot{
+    margin: 0 15px;
+    width:15px;
+    height:15px;
+    background-color: white;
+    border-radius: 15px;
+    transition: background-color 1.5s ease;
+}
+.dot:hover{
+    background-color: #CF4B59;
+}
+.feature-text{
+    background-color: #3bc4b4;
+    ;
+}
+.feature-text .inner{
+    justify-content: left;
+    color: white;
+}
+
+.section2 .inner{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+;
+}
+.inner-in{
+    padding-left: 15px;
+}
+.inner-in h3{
+    text-transform: capitalize;
+    color: darkgray;
+}
+.branded{
+    margin: 15px 0;
+    display: flex;
+    flex-direction: row;
+}
+.slider{
+    display:flex;
+    flex-direction: row;
+}
+.section3 .inner{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+.item{
+    margin: 25px 0;
+    padding-left: 60px;
+    border: 3px solid lightgray;
+    border-bottom: 5px solid #5fb397;
+    height: 245px;
+    width: 245px;
+}
+.items{
+    color: darkgray;
+    font-size:25px;
+    text-transform: capitalize;
+}
+.item-dis{
+    width: 115px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    margin-top: 10px;
+    width: 70px;
+    height: 25px;
+    background-color: #5fb397;
+    color: whitesmoke;
+    border: none;
+}
+button:hover{
+    background-color: #CF4B59;
+}
+.cost{
+    height: 15px;
+    margin-top: 15px;
+}
+
+/* end main */
+/* footer */
+
+footer{
+    background-color: #3bc4b4;
+    color: white;
+}
+.footer-block{
+    padding: 0 45px;
+}
+.footer-list{
+    list-style: none;
+}
+.colophon{
+    display:flex;
+    justify-content: center;
+}
